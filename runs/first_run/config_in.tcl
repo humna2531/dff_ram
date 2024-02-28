@@ -8,3 +8,5 @@ set ::env(VERILOG_FILES) {/openlane/designs/dff_ram/src/ram.v}
 set ::env(CLOCK_PORT) {clk}
 set ::env(CLOCK_PERIOD) {10.0}
 set ::env(DESIGN_IS_CORE) {1}
+set ::env(DIE_AREA) {0 0 2000 2000}
+set ::env(CORE_AREA) {400 400 1800 1800}

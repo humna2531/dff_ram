@@ -4,6 +4,7 @@
     "CLOCK_PORT": "clk",
     "CLOCK_PERIOD": 10.0,
     "DESIGN_IS_CORE": true,
-    "DIE_AREA" : "0 0 1000 1000",
-    "CORE_AREA":"200 200 800 800"
+    "FP_SIZING": "absolute",
+    "DIE_AREA" : "0 0 2000 2000",
+    "CORE_AREA":"400 400 1800 1800"
 }

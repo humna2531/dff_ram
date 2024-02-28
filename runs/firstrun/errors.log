@@ -1,0 +1,53 @@
+[ERROR]: during executing openroad script /openlane/scripts/openroad/ioplacer.tcl
+[ERROR]: Log: designs/dff_ram/runs/firstrun/logs/floorplan/4-io.log
+[ERROR]: Last 10 lines:
+OpenROAD 4f1108b6f558718ed142cbb6c1f5ba20958195ca 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+[INFO PPL-0007] Random pin placement.
+[ERROR PPL-0072] Number of pins (149) exceed number of valid positions (84).
+Error: ioplacer.tcl, 51 PPL-0072
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: Flow failed.
+[ERROR]: during executing openroad script /openlane/scripts/openroad/ioplacer.tcl
+[ERROR]: Log: designs/dff_ram/runs/firstrun/logs/floorplan/8-io.log
+[ERROR]: Last 10 lines:
+OpenROAD 4f1108b6f558718ed142cbb6c1f5ba20958195ca 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+[INFO PPL-0007] Random pin placement.
+[ERROR PPL-0072] Number of pins (149) exceed number of valid positions (84).
+Error: ioplacer.tcl, 51 PPL-0072
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: during executing openroad script /openlane/scripts/openroad/tapcell.tcl
+[ERROR]: Log: designs/dff_ram/runs/firstrun/logs/floorplan/9-tap.log
+[ERROR]: Last 10 lines:
+OpenROAD 4f1108b6f558718ed142cbb6c1f5ba20958195ca 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[ERROR ORD-0007] /openlane/designs/dff_ram/runs/firstrun/tmp/floorplan/8-io.odb does not exist.
+ORD-0007
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: Failed to package reproducible.
+[ERROR]: during executing openroad script /openlane/scripts/openroad/pdn.tcl
+[ERROR]: Log: designs/dff_ram/runs/firstrun/logs/floorplan/10-pdn.log
+[ERROR]: Last 10 lines:
+OpenROAD 4f1108b6f558718ed142cbb6c1f5ba20958195ca 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[ERROR ORD-0007] /openlane/designs/dff_ram/runs/firstrun/results/floorplan/dff_ram.odb does not exist.
+ORD-0007
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: Failed to package reproducible.

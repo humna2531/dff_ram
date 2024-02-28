@@ -34,3 +34,12 @@
 - status: 13 - pdn generation - openroad
   runtime_s: 0.54
   runtime_ts: 0h0m0s535ms
+- status: 13 - openlane design prep
+  runtime_s: 2.62
+  runtime_ts: 0h0m2s615ms
+- status: 15 - synthesis - yosys
+  runtime_s: 0.1
+  runtime_ts: 0h0m0s95ms
+- status: 16 - sta - openroad
+  runtime_s: 0.42
+  runtime_ts: 0h0m0s417ms
