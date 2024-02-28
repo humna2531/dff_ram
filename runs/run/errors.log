@@ -1,0 +1,16 @@
+[ERROR]: during executing openroad script /openlane/scripts/openroad/gpl.tcl
+[ERROR]: Log: designs/dff_ram/runs/run/logs/placement/7-global.log
+[ERROR]: Last 10 lines:
+[INFO GPL-0103] Weighted 84 nets.
+[NesterovSolve] Snapshot saved at iter = 328
+[NesterovSolve] Iter: 330 overflow: 0.329052 HPWL: 54987181
+[INFO GPL-0100] worst slack 6.14e-09
+[INFO GPL-0103] Weighted 84 nets.
+[NesterovSolve] Iter: 340 overflow: 0.309409 HPWL: 61557217
+[NesterovSolve] Iter: 350 overflow: 0.29864 HPWL: 67131756
+[ERROR GPL-0307] RePlAce divergence detected. Re-run with a smaller max_phi_cof value.
+Error: gpl.tcl, 69 GPL-0307
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: Flow failed.

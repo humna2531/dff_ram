@@ -43,3 +43,12 @@
 - status: 16 - sta - openroad
   runtime_s: 0.42
   runtime_ts: 0h0m0s417ms
+- status: 16 - openlane design prep
+  runtime_s: 2.56
+  runtime_ts: 0h0m2s556ms
+- status: 17 - synthesis - yosys
+  runtime_s: 0.09
+  runtime_ts: 0h0m0s92ms
+- status: 18 - sta - openroad
+  runtime_s: 0.42
+  runtime_ts: 0h0m0s416ms

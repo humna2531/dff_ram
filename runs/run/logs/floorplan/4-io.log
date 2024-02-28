@@ -1,0 +1,8 @@
+OpenROAD 4f1108b6f558718ed142cbb6c1f5ba20958195ca 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+[INFO PPL-0007] Random pin placement.
+Writing OpenROAD database to /openlane/designs/dff_ram/runs/run/tmp/floorplan/4-io.odb...
+Writing layout to /openlane/designs/dff_ram/runs/run/tmp/floorplan/4-io.def...

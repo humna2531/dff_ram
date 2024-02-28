@@ -78,3 +78,9 @@ Wed Feb 28 10:05:35 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLI
 
 Wed Feb 28 10:05:35 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/first_run/logs/synthesis/16-sta.log"
 
+Wed Feb 28 11:56:06 UTC 2024 - Executing "echo {OpenLane f507637dbcb9e58fa08bcf86ce54289c23cd6817} > /openlane/designs/dff_ram/runs/first_run/OPENLANE_VERSION"
+
+Wed Feb 28 11:57:03 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/dff_ram\/runs\/first_run\/results\/synthesis\/dff_ram.v/} /openlane/designs/dff_ram/runs/first_run/config.tcl"
+
+Wed Feb 28 11:57:03 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/first_run/logs/synthesis/18-sta.log"
+

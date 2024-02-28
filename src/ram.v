@@ -11,7 +11,7 @@ module dff_ram(
     always @ (posedge clk) begin
         if (enb) begin
             if (wr) begin
-                mem [addr]= data ;
+                mem [addr]<= data ;
             end
             else begin
                 r_data <= mem[addr];

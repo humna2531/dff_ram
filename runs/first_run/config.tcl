@@ -38,12 +38,12 @@ set ::env(CTS_TECH_DIR) {N/A}
 set ::env(CTS_TOLERANCE) {100}
 set ::env(CURRENT_DEF) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.def}
 set ::env(CURRENT_GUIDE) {0}
-set ::env(CURRENT_INDEX) 16
+set ::env(CURRENT_INDEX) 18
 set ::env(CURRENT_LIB) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.lib}
 set ::env(CURRENT_NETLIST) /openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.v
 set ::env(CURRENT_ODB) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.odb}
 set ::env(CURRENT_POWERED_NETLIST) {0}
-set ::env(CURRENT_SDC) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/10-initial_fp.sdc}
+set ::env(CURRENT_SDC) {/openlane/scripts/base.sdc}
 set ::env(CURRENT_SDF) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.sdf}
 set ::env(CVC_SCRIPTS_DIR) {/home/sajjad/OpenLane/pdks/sky130A/libs.tech/openlane/cvc}
 set ::env(DATA_WIRE_RC_LAYER) {met2}
@@ -259,7 +259,7 @@ set ::env(RIGHT_MARGIN_MULT) {12}
 set ::env(RIPPLE_CARRY_ADDER_MAP) {/home/sajjad/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/rca_map.v}
 set ::env(ROOT_CLK_BUFFER) {sky130_fd_sc_hd__clkbuf_16}
 set ::env(ROUTING_CORES) {2}
-set ::env(RSZ_DONT_TOUCH_RX) {\\\\\\\\$^}
+set ::env(RSZ_DONT_TOUCH_RX) {\\\\\\\\\$^}
 set ::env(RSZ_LIB) {/openlane/designs/dff_ram/runs/first_run/tmp/synthesis/resizer_sky130_fd_sc_hd__tt_025C_1v80.lib}
 set ::env(RSZ_USE_OLD_REMOVER) {0}
 set ::env(RT_MAX_LAYER) {met5}
@@ -280,8 +280,10 @@ set ::env(RUN_STANDALONE) {1}
 set ::env(RUN_TAG) {first_run}
 set ::env(RUN_TAP_DECAP_INSERTION) {1}
 set ::env(SAVE_DEF) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.def}
+set ::env(SAVE_LIB) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.lib}
 set ::env(SAVE_NETLIST) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.v}
 set ::env(SAVE_ODB) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.odb}
+set ::env(SAVE_SDF) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.sdf}
 set ::env(SCLPATH) {/home/sajjad/OpenLane/pdks/sky130A/sky130_fd_sc_hd}
 set ::env(SPEF_EXTRACTOR) {openrcx}
 set ::env(START_TIME) {2024.02.28_08.50.44}
@@ -412,7 +414,7 @@ set ::env(CTS_TECH_DIR) {N/A}
 set ::env(CTS_TOLERANCE) {100}
 set ::env(CURRENT_DEF) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.def}
 set ::env(CURRENT_GUIDE) {0}
-set ::env(CURRENT_INDEX) 16
+set ::env(CURRENT_INDEX) 18
 set ::env(CURRENT_LIB) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.lib}
 set ::env(CURRENT_NETLIST) {/openlane/designs/dff_ram/runs/first_run/results/synthesis/dff_ram.v}
 set ::env(CURRENT_ODB) {/openlane/designs/dff_ram/runs/first_run/tmp/floorplan/13-pdn.odb}
@@ -651,7 +653,7 @@ set ::env(RIGHT_MARGIN_MULT) {12}
 set ::env(RIPPLE_CARRY_ADDER_MAP) {/home/sajjad/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/rca_map.v}
 set ::env(ROOT_CLK_BUFFER) {sky130_fd_sc_hd__clkbuf_16}
 set ::env(ROUTING_CORES) {2}
-set ::env(RSZ_DONT_TOUCH_RX) {\\\\\\\\\$^}
+set ::env(RSZ_DONT_TOUCH_RX) {\\\\\\\\\\$^}
 set ::env(RSZ_LIB) {/openlane/designs/dff_ram/runs/first_run/tmp/synthesis/resizer_sky130_fd_sc_hd__tt_025C_1v80.lib}
 set ::env(RSZ_USE_OLD_REMOVER) {0}
 set ::env(RT_MAX_LAYER) {met5}
