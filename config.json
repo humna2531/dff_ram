@@ -1,0 +1,9 @@
+{
+    "DESIGN_NAME": "dff_ram",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "DESIGN_IS_CORE": true,
+    "DIE_AREA" : "0 0 1000 1000",
+    "CORE_AREA":"200 200 800 800"
+}

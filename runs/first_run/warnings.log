@@ -1,0 +1,2 @@
+[WARNING]: A run for dff_ram with tag 'first_run' already exists. Pass the -overwrite option to overwrite it.
+[WARNING]: Current core area is too small for the power grid settings chosen. The power grid will be scaled down.

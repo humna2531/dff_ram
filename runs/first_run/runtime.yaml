@@ -1,0 +1,36 @@
+- status: 0 - openlane design prep
+  runtime_s: 2.77
+  runtime_ts: 0h0m2s766ms
+- status: 2 - openlane design prep
+  runtime_s: 2.54
+  runtime_ts: 0h0m2s540ms
+- status: 4 - synthesis - yosys
+  runtime_s: 1.6
+  runtime_ts: 0h0m1s599ms
+- status: 5 - sta - openroad
+  runtime_s: 0.61
+  runtime_ts: 0h0m0s610ms
+- status: 6 - floorplan initialization - openroad
+  runtime_s: 1.16
+  runtime_ts: 0h0m1s161ms
+- status: 7 - ioplace - openroad
+  runtime_s: 1.35
+  runtime_ts: 0h0m1s349ms
+- status: 8 - tap/decap insertion - openroad
+  runtime_s: 0.51
+  runtime_ts: 0h0m0s506ms
+- status: 9 - pdn generation - openroad
+  runtime_s: 0.51
+  runtime_ts: 0h0m0s506ms
+- status: 10 - floorplan initialization - openroad
+  runtime_s: 0.86
+  runtime_ts: 0h0m0s864ms
+- status: 11 - ioplace - openroad
+  runtime_s: 1.16
+  runtime_ts: 0h0m1s159ms
+- status: 12 - tap/decap insertion - openroad
+  runtime_s: 0.52
+  runtime_ts: 0h0m0s522ms
+- status: 13 - pdn generation - openroad
+  runtime_s: 0.54
+  runtime_ts: 0h0m0s535ms
