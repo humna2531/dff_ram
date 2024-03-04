@@ -42,3 +42,29 @@ Wed Feb 28 12:05:06 UTC 2024 - Executing "openroad -exit /openlane/scripts/openr
 
 Wed Feb 28 12:05:25 UTC 2024 - Executing "python3 /openlane/scripts/generate_reports.py -d /openlane/designs/dff_ram --design_name dff_ram --tag run --output_file /openlane/designs/dff_ram/runs/run/reports/metrics.csv --man_report /openlane/designs/dff_ram/runs/run/reports/manufacturability.rpt --run_path /openlane/designs/dff_ram/runs/run"
 
+Mon Mar 04 09:45:02 UTC 2024 - Executing "echo {OpenLane f507637dbcb9e58fa08bcf86ce54289c23cd6817} > /openlane/designs/dff_ram/runs/run/OPENLANE_VERSION"
+
+Mon Mar 04 09:45:48 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/dff_ram\/runs\/run\/results\/synthesis\/dff_ram.v/} /openlane/designs/dff_ram/runs/run/config.tcl"
+
+Mon Mar 04 09:45:48 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/synthesis/10-sta.log"
+
+Mon Mar 04 09:46:01 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/floorplan/11-initial_fp.log"
+
+Mon Mar 04 09:46:02 UTC 2024 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py extract_core_dims --output-data /openlane/designs/dff_ram/runs/run/tmp/dimensions.txt --input-lef /openlane/designs/dff_ram/runs/run/tmp/merged.nom.lef /openlane/designs/dff_ram/runs/run/tmp/floorplan/11-initial_fp.def"
+
+Mon Mar 04 09:46:02 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/ioplacer.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/floorplan/12-io.log"
+
+Mon Mar 04 09:46:03 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/floorplan/13-tap.log"
+
+Mon Mar 04 09:46:04 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/floorplan/14-pdn.log"
+
+Mon Mar 04 09:46:16 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/placement/15-global.log"
+
+Mon Mar 04 09:46:35 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/placement/16-resizer.log"
+
+Mon Mar 04 09:46:36 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/dff_ram\/runs\/run\/tmp\/placement\/16-resizer.nl.v/} /openlane/designs/dff_ram/runs/run/config.tcl"
+
+Mon Mar 04 09:46:36 UTC 2024 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /openlane/designs/dff_ram/runs/run/logs/placement/17-detailed.log"
+
+Mon Mar 04 09:46:37 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/dff_ram\/runs\/run\/results\/placement\/dff_ram.nl.v/} /openlane/designs/dff_ram/runs/run/config.tcl"
+

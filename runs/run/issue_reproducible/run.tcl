@@ -1,8 +1,8 @@
 #!/usr/bin/env openroad
 set ::env(CLOCK_PORT) {clk};
 set ::env(CURRENT_NETLIST) {./results/synthesis/dff_ram.v};
-set ::env(CURRENT_ODB) {./tmp/floorplan/6-pdn.odb};
-set ::env(CURRENT_SDC) {./tmp/floorplan/3-initial_fp.sdc};
+set ::env(CURRENT_ODB) {./tmp/floorplan/14-pdn.odb};
+set ::env(CURRENT_SDC) {./tmp/floorplan/11-initial_fp.sdc};
 set ::env(DESIGN_NAME) {dff_ram};
 set ::env(FP_PDN_ENABLE_GLOBAL_CONNECTIONS) {1};
 set ::env(FP_PDN_ENABLE_MACROS_GRID) {1};
@@ -22,7 +22,7 @@ set ::env(PACKAGED_SCRIPT_2) {openlane/scripts/openroad/common/set_rc.tcl};
 set ::env(PACKAGED_SCRIPT_3) {openlane/scripts/openroad/common/set_routing_layers.tcl};
 set ::env(PACKAGED_SCRIPT_4) {openlane/scripts/openroad/common/set_layer_adjustments.tcl};
 set ::env(PACKAGED_SCRIPT_5) {openlane/scripts/openroad/sta.tcl};
-set ::env(PACKAGED_SCRIPT_6) {./tmp/floorplan/3-initial_fp.sdc};
+set ::env(PACKAGED_SCRIPT_6) {./tmp/floorplan/11-initial_fp.sdc};
 set ::env(PACKAGED_SCRIPT_7) {openlane/scripts/openroad/common/set_global_connections.tcl};
 set ::env(PL_BASIC_PLACEMENT) {0};
 set ::env(PL_ESTIMATE_PARASITICS) {1};
