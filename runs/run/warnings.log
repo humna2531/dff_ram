@@ -1,3 +1,5 @@
 [WARNING]: A run for dff_ram with tag 'run' already exists. Pass the -overwrite option to overwrite it.
 [WARNING]: A netlist at /openlane/designs/dff_ram/runs/run/results/synthesis/dff_ram.v already exists. Synthesis will be skipped.
 [WARNING]: A netlist at /openlane/designs/dff_ram/runs/run/results/synthesis/dff_ram.v already exists. Synthesis will be skipped.
+[WARNING]: A run for dff_ram with tag 'run' already exists. Pass the -overwrite option to overwrite it.
+[WARNING]: A netlist at /openlane/designs/dff_ram/runs/run/results/synthesis/dff_ram.v already exists. Synthesis will be skipped.

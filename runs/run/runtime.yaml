@@ -49,3 +49,12 @@
 - status: 17 - detailed placement - openroad
   runtime_s: 0.56
   runtime_ts: 0h0m0s558ms
+- status: 17 - openlane design prep
+  runtime_s: 2.59
+  runtime_ts: 0h0m2s589ms
+- status: 18 - synthesis - yosys
+  runtime_s: 0.09
+  runtime_ts: 0h0m0s92ms
+- status: 19 - sta - openroad
+  runtime_s: 0.44
+  runtime_ts: 0h0m0s437ms

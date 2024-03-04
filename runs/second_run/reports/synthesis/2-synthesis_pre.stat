@@ -1,0 +1,21 @@
+
+10. Printing statistics.
+
+=== dff_ram ===
+
+   Number of wires:                 29
+   Number of wire bits:            187
+   Number of public wires:          10
+   Number of public wire bits:     165
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 42
+     $_ANDNOT_                       5
+     $_AND_                          1
+     $_DFFE_PP_                     20
+     $_MUX_                         12
+     $_NAND_                         1
+     $_ORNOT_                        2
+     $_OR_                           1
+

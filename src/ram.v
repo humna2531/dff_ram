@@ -6,7 +6,7 @@ module dff_ram(
     input wire        wr,
     output reg [71:0] r_data   
 ); 
-    reg [4:0] mem [71:0];
+    reg [3:0] mem [71:0];
 
     always @ (posedge clk) begin
         if (enb) begin

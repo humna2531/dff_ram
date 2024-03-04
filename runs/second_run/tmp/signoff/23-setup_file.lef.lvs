@@ -1,0 +1,1 @@
+lvs {/openlane/designs/dff_ram/runs/second_run/results/signoff/dff_ram.spice dff_ram} {/openlane/designs/dff_ram/runs/second_run/tmp/signoff/20-dff_ram.pnl.v dff_ram} /home/sajjad/OpenLane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/dff_ram/runs/second_run/logs/signoff/23-dff_ram.lef.lvs.log -json
